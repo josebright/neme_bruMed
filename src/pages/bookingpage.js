@@ -16,7 +16,7 @@ class Data extends Component {
         <div {...props}>
             <div className="flex">
                 <div className="flex-item-left">
-                    <img src={image} className="image_1" alt="image" />
+                    <img src={image} className="image_2" alt="image" />
                 </div>
                 <div className="flex-item-right">
                     <h4>{title}</h4>
@@ -31,7 +31,7 @@ class Data extends Component {
   export default class BookingPage extends Component {
     render() {
     return (
-        <div className="home">
+        <div>
             <h3 className="right-align">Good Morning, Dwayne!</h3>
 
             <SearchField
@@ -46,32 +46,6 @@ class Data extends Component {
                 <Data image={image_d} title={"My Medication"} text={"Manage your medicine and pills"} />
             </div>
             
-            <div className="flex-bottom">
-                <div className="inside">
-                    <Link to="/" className="link">
-                        <img src={image_a} className="image_1" alt="image" />
-                        Home
-                    </Link>
-                </div>
-                <div className="inside">
-                    <Link to="" className="link">
-                        <img src={image_a} className="image_1" alt="image" />
-                        Messages
-                    </Link>
-                </div>
-                <div className="inside">
-                    <Link to="" className="link">
-                        <img src={image_a} className="image_1" alt="image" />
-                        Notification
-                    </Link>
-                </div>
-                <div className="inside">
-                    <Link to="" className="link">
-                        <img src={image_a} className="image_1" alt="image" />
-                        Profile
-                    </Link>
-                </div>
-            </div>
         </div>
     );}
 }

@@ -5,7 +5,7 @@ import '../App.css';
 
 const verification = () => (
 
-    <div className="home section_ver">
+    <div>
         <h3 className="text-center blue-text" >Get Your Code</h3>
         <p className="text-center">Please enter the 4 digit code sent to your phone number.</p>
         <div className="text-center">

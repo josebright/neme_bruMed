@@ -5,7 +5,7 @@ import button_next from '../images/button_next.svg';
 import '../App.css';
 
 const HomePage = () => (
-  <div className="home section_home">
+  <div>
           <h2>bruMed</h2>
           <img src={image_1} className="image_1" alt="image_1" />
           

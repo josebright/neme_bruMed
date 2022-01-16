@@ -13,7 +13,7 @@ const Register = () => {
     }
 
     return (
-        <div className="home section_reg">
+        <div>
             <h2>Create Account</h2>
             <form>
                 <label>Full Name: <br/>
