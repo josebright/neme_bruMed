@@ -31,11 +31,11 @@ class CustomSlide extends Component {
 export default class onBoarding extends Component {
     render() {
         const settings = {
-            dots: true,
+            // dots: true,
             arrows: false,
             autoplay: true,
-            autoplaySpeed: 2000,
-            pauseOnHover: true,
+            // autoplaySpeed: 2000,
+            // pauseOnHover: true,
             fade: true,
             infinite: false,
             accessibility: false,
@@ -49,7 +49,7 @@ export default class onBoarding extends Component {
         <div className="home section_onBoard">
             <Slider {...settings}>
                 <CustomSlide image={image_2} title={"Get Online Consultation"} text={"Online video and chat consultation with the doctor of your choice"} />
-                <CustomSlide image={image_3} title={"Book Appointments"} text={"No need to go anywhere, book your appointments while seating at homes."} />
+                {/* <CustomSlide image={image_3} title={"Book Appointments"} text={"No need to go anywhere, book your appointments while seating at homes."} /> */}
             </Slider>
         </div>
     );}
