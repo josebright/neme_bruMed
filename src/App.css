@@ -43,11 +43,12 @@
   border-radius: 5px;
   background-color: #1159DA;
   color: white;
-  margin: 10% 25% 0 25%;
+  margin: 8% 25%;
   padding: 2% 0;
   cursor: pointer;
   border-style: none;
 }
+
 
 label{
   display: block;
@@ -110,11 +111,20 @@ input[type=number]::-webkit-outer-spin-button
   width: 80%;
 }
 
-.flex-item-right h4{
+.flex-item-right1 {
+  width: 20%;
+  align-self: center;
+}
+
+.flex-item-middle {
+  width: 60%;
+}
+
+.flex h4{
   margin: 0;
 }
 
-.flex-item-right p{
+.flex p{
   margin: 0;
 }
 
@@ -126,4 +136,54 @@ input[type=number]::-webkit-outer-spin-button
 
 .right-align{
   padding: 0 10%;
+}
+
+.flex-item{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2% 0;
+}
+
+.rectangle{
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 3%; 
+  box-shadow: 1px 1px 3px;
+  margin: 0 2%;
+  padding: 10px 20px;
+  color: #1159DA;
+}
+
+.rectangle-clone{
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 3%; 
+  box-shadow: 1px 1px 3px;
+  margin: 2%;
+  padding: 10px 20px;
+  width: 50%;
+  text-align: center;
+}
+
+.circle{
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 50px; 
+  box-shadow: 1px 1px 3px;
+  margin: 0 1%;
+  padding: 20px;
+  color: #1159DA;
+}
+
+.circle:active, .rectangle:active{
+  background-color: #1159DA;
+  color: white;
+}
+
+.demo{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5% 0;
+  cursor: pointer;
+  width: 50%;
 }

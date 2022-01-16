@@ -40,10 +40,18 @@ class Data extends Component {
             />
 
             <div>
-                <Data image={image_a} title={"Book an Appointment"} text={"Select Your Doctor"} />
-                <Data image={image_b} title={"Book a Lab Test"} text={"Get your sample collected from a clinic"} />
-                <Data image={image_c} title={"View Appointments"} text={"Your Upcoming Appointments"} />
-                <Data image={image_d} title={"My Medication"} text={"Manage your medicine and pills"} />
+                <Link className="link" to="/doctors">
+                    <Data image={image_a} title={"Book an Appointment"} text={"Select Your Doctor"} />
+                </Link>
+                <Link className="link" to="/">
+                    <Data image={image_b} title={"Book a Lab Test"} text={"Get your sample collected from a clinic"} />
+                </Link>
+                <Link className="link" to="/">
+                    <Data image={image_c} title={"View Appointments"} text={"Your Upcoming Appointments"} />
+                </Link>
+                <Link className="link" to="/">
+                    <Data image={image_d} title={"My Medication"} text={"Manage your medicine and pills"} />
+                </Link>
             </div>
             
         </div>

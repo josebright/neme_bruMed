@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import image_2 from '../images/image_2.svg';
-import image_3 from '../images/image_3.svg';
+// import image_3 from '../images/image_3.svg';
 import '../App.css';
 
 import Slider from "react-slick";

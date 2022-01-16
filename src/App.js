@@ -5,6 +5,9 @@ import OnBoarding from './pages/onBoarding';
 import Register from './pages/register';
 import Verification from './pages/verification';
 import BookingPage from './pages/bookingpage';
+import Doctors from './pages/doctors';
+import Consultation from './pages/consultation';
+import Details from './pages/details';
 import './App.css';
 
 function App () {
@@ -16,6 +19,9 @@ function App () {
         <Route path="/register" element={<Register />} />
         <Route path="/verification" element={<Verification />} />
         <Route path="/bookingpage" element={<BookingPage />} />
+        <Route path="/doctors" element={<Doctors />} />
+        <Route path="/consultation" element={<Consultation />} />
+        <Route path="/details" element={<Details />} />
       </Routes>
     </div>
   );    
