@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import image_a from '../images/book_appointment_icon.svg';
+import image_1 from '../images/1.png';
+import image_2 from '../images/2.png';
+import image_3 from '../images/3.png';
+import image_4 from '../images/4.png';
+import image_5 from '../images/5.png';
 import button_next from '../images/button_next.svg';
 import '../App.css';
 
@@ -20,7 +24,7 @@ class Data extends Component {
                     <p>{text}</p>
                     <p>Appointments Available in {index} days</p>
                 </div>
-                <div className="flex-item-right1">
+                <div className="flex-item-left">
                     <img src={button_next} className="image_3" alt="image" />
                 </div>
             </div>
@@ -37,19 +41,19 @@ class Data extends Component {
 
             <div>
                 <Link className="link" to="/consultation">
-                    <Data image={image_a} title={"Dr. Michael Clarke"} text={"General Practitioner, MRCGP"} />
+                    <Data image={image_1} title={"Dr. Michael Clarke"} text={"General Practitioner, MRCGP"} />
                 </Link>
                 <Link className="link" to="/consultation">
-                    <Data image={image_a} title={"Dr. Nicolas Haviv"} text={"Psychiatrist, Md"} />
+                    <Data image={image_2} title={"Dr. Nicolas Haviv"} text={"Psychiatrist, Md"} />
                 </Link>
                 <Link className="link" to="/consultation">
-                    <Data image={image_a} title={"Dr. Rajesh Kothrappali"} text={"Dietician, MBBS"} />
+                    <Data image={image_3} title={"Dr. Rajesh Kothrappali"} text={"Dietician, MBBS"} />
                 </Link>
                 <Link className="link" to="/consultation">
-                    <Data image={image_a} title={"Dr. Zoya Hiddleston"} text={"Mental Health, MD"} />
+                    <Data image={image_4} title={"Dr. Zoya Hiddleston"} text={"Mental Health, MD"} />
                 </Link>
                 <Link className="link" to="/consultation">
-                    <Data image={image_a} title={"Dr. Rachael Green"} text={"General Practitioner, MRCGP"} />
+                    <Data image={image_5} title={"Dr. Rachael Green"} text={"General Practitioner, MRCGP"} />
                 </Link>
             </div>
             

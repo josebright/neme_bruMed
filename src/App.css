@@ -13,7 +13,17 @@
   margin: 20px auto;
 }
 
+.padding{
+  padding-top: 50px;
+}
+
 .image_2 {
+  display: block;
+  margin: auto;
+  width: 100px;
+}
+
+.image_3{
   display: block;
   margin: auto;
 }
@@ -53,9 +63,10 @@
 label{
   display: block;
 }
+
 .input{
   width: 100%;
-  height: 50px;
+  height: 60px;
   outline: none;
   border-style: none;
 }
@@ -109,22 +120,27 @@ input[type=number]::-webkit-outer-spin-button
 
 .flex-item-right {
   width: 80%;
-}
-
-.flex-item-right1 {
-  width: 20%;
-  align-self: center;
+  margin: auto;
 }
 
 .flex-item-middle {
   width: 60%;
+  margin: auto;
 }
 
-.flex h4{
+.flex-item-right h4{
   margin: 0;
 }
 
-.flex p{
+.flex-item-right p{
+  margin: 0;
+}
+
+.flex-item-middle h4{
+  margin: 0;
+}
+
+.flex-item-middle p{
   margin: 0;
 }
 
@@ -186,4 +202,73 @@ input[type=number]::-webkit-outer-spin-button
   margin: 5% 0;
   cursor: pointer;
   width: 50%;
+}
+
+.flex-item-main {
+  width: 5%;
+  padding: 20px;
+  align-self: center;
+}
+
+.demo1{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5% 0;
+  cursor: pointer;
+  width: 25%;
+}
+
+.folder{
+  background-color: white;
+  width: 80%;
+  padding: 10px;
+}
+
+.cap{
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 3%; 
+  box-shadow: 1px 1px 3px;
+  margin: 0 5%;
+  padding: 10px 20px;
+  color: #1159DA;
+  height: 300px;
+  width: 200px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.add{
+  display: block;
+  margin: 20px auto;
+  margin-top: 15%;
+  height: 100px;
+}
+
+.search{
+    width: 80%;
+    height: 60px;
+    outline: none;
+    border: 1px solid #1159DA;
+    padding-left: 2%;
+    font-size: 24px;
+}
+
+.right{
+  display: flex;
+  float: right;
+  margin-left: 50%;
+}
+
+.right select{
+  color: #1159DA;
+  outline: none;
+  border-style: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.flex-item-clone{
+  display: flex;
+  flex-wrap: wrap;
 }

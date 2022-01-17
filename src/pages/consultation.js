@@ -1,6 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import image_1 from '../images/book_appointment_icon.svg';
+import image_1 from '../images/1.png';
+import image_Profession from '../images/Profession.png';
+import image_hospital from '../images/hospital.png';
+import image_venue from '../images/venue.png';
+import image_favorite from '../images/favorite.png';
+import image_morning from '../images/morning.png';
+import image_afternoon from '../images/afternoon.png';
 import '../App.css';
 
 const Consultation = () => (
@@ -12,13 +18,13 @@ const Consultation = () => (
             </div>
             <div>
                 <h3>Dr. Michael Clarke</h3>
-                <div><img src={image_1} className="image_a" alt="image_1" /> Dermatologist</div>
-                <div><img src={image_1} className="image_a" alt="image_1" /> Elizabeth hospital</div>
-                <div><img src={image_1} className="image_a" alt="image_1" /> 4 miles away from you</div>
+                <div><img src={image_Profession} className="image_a" alt="image_1" /> Dermatologist</div>
+                <div><img src={image_hospital} className="image_a" alt="image_1" /> Elizabeth hospital</div>
+                <div><img src={image_venue} className="image_a" alt="image_1" /> 4 miles away from you</div>
             </div>
         </div>
 
-        <div className="blue-text"><img src={image_1} className="image_a" alt="image_1" /> Add to my care</div>
+        <div className="blue-text"><img src={image_favorite} className="image_a" alt="image_1" /> Add to my care</div>
 
         <h3>Select Date for Consultation</h3>
         <div className="flex-item">
@@ -28,14 +34,14 @@ const Consultation = () => (
         </div>
 
         <h3>Select Time for Consultation</h3>
-        <div><img src={image_1} className="image_a" alt="image_1" /> Morning</div>
+        <div><img src={image_morning} className="image_a" alt="image_1" /> Morning</div>
         <div className="flex-item">
             <div className="rectangle">9:30 AM</div>
             <div className="rectangle">10:30 AM</div>
             <div className="rectangle">11:45 AM</div>
         </div>
 
-        <div><img src={image_1} className="image_a" alt="image_1" /> Afternoon</div>
+        <div><img src={image_afternoon} className="image_a" alt="image_1" /> Afternoon</div>
         <div className="flex-item">
             <div className="rectangle">12:30 PM</div>
             <div className="rectangle">2:30 PM</div>

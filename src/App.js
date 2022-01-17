@@ -8,6 +8,9 @@ import BookingPage from './pages/bookingpage';
 import Doctors from './pages/doctors';
 import Consultation from './pages/consultation';
 import Details from './pages/details';
+import Confirmation from './pages/confirmation';
+import Mymedicine from './pages/mymedicine';
+import Newmedication from './pages/newmedication';
 import './App.css';
 
 function App () {
@@ -22,9 +25,12 @@ function App () {
         <Route path="/doctors" element={<Doctors />} />
         <Route path="/consultation" element={<Consultation />} />
         <Route path="/details" element={<Details />} />
+        <Route path="/confirmation" element={<Confirmation />} />
+        <Route path="/mymedicine" element={<Mymedicine />} />
+        <Route path="/newmedication" element={<Newmedication />} />
       </Routes>
     </div>
-  );    
+  );   
 }
 
 export default App;
