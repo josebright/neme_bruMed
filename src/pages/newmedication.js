@@ -55,7 +55,7 @@ const Mymedicine = () => (
             <div className="circle">35 Min</div>
         </div>
 
-        <Link className="link" to="/">
+        <Link className="link" to="/confirmation">
             <div className="button" >Save Medication</div>
         </Link>
     </div>
